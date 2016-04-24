@@ -1,6 +1,6 @@
 {
   "name": "consume-until",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Consume a stream until a given pattern is found",
   "main": "index.js",
   "dependencies": {
@@ -30,5 +30,9 @@
   "bugs": {
     "url": "https://github.com/watson/consume-until/issues"
   },
-  "homepage": "https://github.com/watson/consume-until#readme"
+  "homepage": "https://github.com/watson/consume-until#readme",
+  "coordinates": [
+    55.64691,
+    12.5508504
+  ]
 }
