@@ -1,0 +1,34 @@
+{
+  "name": "consume-until",
+  "version": "0.0.0",
+  "description": "Consume a stream until a given pattern is found",
+  "main": "index.js",
+  "dependencies": {
+    "buffer-indexof": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tape": "^4.5.1"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/consume-until.git"
+  },
+  "keywords": [
+    "stream",
+    "streams",
+    "consume",
+    "seek",
+    "search",
+    "pattern"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/consume-until/issues"
+  },
+  "homepage": "https://github.com/watson/consume-until#readme"
+}
