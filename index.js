@@ -6,7 +6,7 @@ module.exports = function (source, delimiter, cb) {
   var len = 0
   var buf
 
-  delimiter = typeof delimiter === 'string' ? Buffer(delimiter) : delimiter
+  delimiter = typeof delimiter === 'string' ? Buffer.from(delimiter) : delimiter
 
   source.on('end', onEnd)
   source.on('error', onError)
